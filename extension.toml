@@ -1,7 +1,7 @@
 id = "shhhed-theme"
 name = "shhhed"
-version = "0.0.1"
+version = "0.5.0"
 schema_version = 1
 authors = ["mkhamat"]
-description = "A dark, muted theme with soft greens and purples"
+description = "A quiet dark theme for Zed. Built with AI, fine tuned for Dart syntax. WCAG AA tested"
 repository = "https://github.com/mkhamat/shhhed"

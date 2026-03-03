@@ -29,8 +29,8 @@
         "editor.background": "#202024",
         "editor.foreground": "#d0d0d8",
         "editor.gutter.background": "#1e1e22",
-        "editor.active_line.background": "#343446",
-        "editor.highlighted_line.background": "#323242",
+        "editor.active_line.background": "#252530",
+        "editor.highlighted_line.background": "#242430",
         "editor.line_number": "#3a3a44",
         "editor.active_line_number": "#808090",
         "editor.indent_guide": "#28282f",
@@ -172,8 +172,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#9880c0",
-            "font_style": "italic"
+            "color": "#9880c0"
           },
           "boolean": {
             "color": "#7da8d2"
