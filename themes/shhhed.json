@@ -189,7 +189,7 @@
             "color": "#7da8d2"
           },
           "constructor": {
-            "color": "#6ca880"
+            "color": "#b87880"
           },
           "embedded": {
             "color": "#6ca880"
@@ -206,10 +206,10 @@
             "color": "#6ca880"
           },
           "function": {
-            "color": "#6ca880"
+            "color": "#b87880"
           },
           "function.builtin": {
-            "color": "#6ca880"
+            "color": "#b87880"
           },
           "function.definition": {
             "color": "#6ca880",
