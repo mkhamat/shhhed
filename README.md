@@ -6,7 +6,7 @@ Most dark themes go one of two ways: everything is colorful and loud, or everyth
 
 Fine-tuned for Dart, works well elsewhere.
 
-![shhh-preview](preview.png)
+![shhh-preview](preview.png?v=2)
 
 ## Why this one
 
