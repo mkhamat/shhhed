@@ -1,7 +1,7 @@
 id = "shhhed-theme"
 name = "shhhed"
-version = "0.9.9"
+version = "1.0.0"
 schema_version = 1
 authors = ["mkhamat"]
-description = "🤫 A dark theme with five visual depth planes, OKLCH-equalized accents, and Night Shift resilience — quiet enough for long sessions, expressive enough to read at a glance."
+description = "🤫 Dark theme where keywords shut up and types actually stand out. Neutral gray, no tint."
 repository = "https://github.com/mkhamat/shhhed"
