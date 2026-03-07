@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="theguy.png" alt="shhhed" width="400">
+</p>
+
 # shhhed
 
 A dark theme for [Zed](https://zed.dev) that doesn't fight for your attention.
