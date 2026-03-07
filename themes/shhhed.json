@@ -211,15 +211,13 @@
             "color": "#729bcf"
           },
           "function.definition": {
-            "color": "#7db277",
-            "font_weight": 600
+            "color": "#7db277"
           },
           "function.method": {
             "color": "#729bcf"
           },
           "function.special.definition": {
-            "color": "#7db277",
-            "font_weight": 600
+            "color": "#7db277"
           },
           "hint": {
             "color": "#6088b0",
