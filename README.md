@@ -6,7 +6,7 @@ Most dark themes are either colorful and loud, or gray and flat. shhhed gives re
 
 Originally developed for Dart, tested across TypeScript, Python, and Rust.
 
-![shhhed-preview](preview.png?v=2)
+![shhhed-preview](preview.png)
 
 ## Design
 
@@ -31,12 +31,18 @@ Properties and parameters (`property`, `variable.parameter`, `variable.special`)
 
 Covers the full Zed UI surface, not just syntax highlighting.
 
+![shhhed-terminal](preview-terminal.png)
+
 - **Git gutter & diffs** — added/modified/deleted indicators, word-level diff highlighting, merge conflict markers (ours vs theirs)
 - **Search** — passive matches are subtle, the active match stands out
 - **Debugger** — active line highlight and accent color
 - **Minimap & scrollbar** — three-state thumb (idle, hover, active), all neutral
 - **Terminal** — full 16-color ANSI palette with bright and dim variants
 - **Status colors** — green for success, amber for warnings, orange for conflicts, rose for errors
+
+![shhhed-sidebar](preview-sidebar.png)
+
+![shhhed-diff](preview-diff.png)
 
 ## Palette
 
