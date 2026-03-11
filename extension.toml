@@ -3,5 +3,5 @@ name = "shhhed"
 version = "1.33.7"
 schema_version = 1
 authors = ["mkhamat"]
-description = "🤫 Dark theme that dims the scaffolding and colors what matters."
+description = "🤫 Theme that dims the scaffolding and colors what matters. Dark and light."
 repository = "https://github.com/mkhamat/shhhed"
