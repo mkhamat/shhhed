@@ -233,13 +233,13 @@
             "color": "#729bcf"
           },
           "function.definition": {
-            "color": "#8bc37b"
+            "color": "#729bcf"
           },
           "function.method": {
             "color": "#729bcf"
           },
           "function.special.definition": {
-            "color": "#8bc37b"
+            "color": "#729bcf"
           },
           "hint": {
             "color": "#6088b0",
