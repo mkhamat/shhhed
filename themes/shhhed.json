@@ -580,10 +580,10 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#645c50"
+            "color": "#756d62"
           },
           "boolean": {
-            "color": "#c82868",
+            "color": "#a3004e",
             "font_style": "italic"
           },
           "comment": {
@@ -595,13 +595,13 @@
             "font_style": "italic"
           },
           "constant": {
-            "color": "#c42840"
+            "color": "#a20029"
           },
           "constructor": {
             "color": "#6a1098"
           },
           "embedded": {
-            "color": "#008cb4"
+            "color": "#006a8a"
           },
           "emphasis": {
             "color": "#1e1a14",
@@ -612,32 +612,32 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#008cb4"
+            "color": "#006a8a"
           },
           "function": {
-            "color": "#0050d8"
+            "color": "#0049d4"
           },
           "function.builtin": {
-            "color": "#0050d8"
+            "color": "#0049d4"
           },
           "function.definition": {
-            "color": "#0050d8"
+            "color": "#0049d4"
           },
           "function.method": {
-            "color": "#0050d8"
+            "color": "#0049d4"
           },
           "function.special.definition": {
-            "color": "#0050d8"
+            "color": "#0049d4"
           },
           "hint": {
             "color": "#236292",
             "font_style": "italic"
           },
           "keyword": {
-            "color": "#5f447d"
+            "color": "#715a8b"
           },
           "label": {
-            "color": "#5f447d"
+            "color": "#715a8b"
           },
           "link_text": {
             "color": "#2a7848"
@@ -646,23 +646,23 @@
             "color": "#2a7848"
           },
           "number": {
-            "color": "#c82868"
+            "color": "#a3004e"
           },
           "operator": {
-            "color": "#625a4e"
+            "color": "#726b5f"
           },
           "predictive": {
             "color": "#b8b8be",
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#416146"
+            "color": "#547559"
           },
           "primary": {
             "color": "#1e1a14"
           },
           "property": {
-            "color": "#645c50"
+            "color": "#756d62"
           },
           "punctuation": {
             "color": "#7f7970"
@@ -677,45 +677,45 @@
             "color": "#2a7848"
           },
           "punctuation.special": {
-            "color": "#5f447d"
+            "color": "#715a8b"
           },
           "string": {
-            "color": "#9c7c00"
+            "color": "#735b00"
           },
           "string.doc": {
-            "color": "#9c7c00",
+            "color": "#735b00",
             "font_style": "italic"
           },
           "string.interpolation": {
-            "color": "#927500"
+            "color": "#6c5500"
           },
           "string.escape": {
-            "color": "#8a6d00"
+            "color": "#655000"
           },
           "string.regex": {
-            "color": "#8a6d00"
+            "color": "#655000"
           },
           "string.special": {
-            "color": "#8a6d00"
+            "color": "#655000"
           },
           "string.special.symbol": {
-            "color": "#8a6d00"
+            "color": "#655000"
           },
           "tag": {
-            "color": "#5f447d"
+            "color": "#715a8b"
           },
           "text.literal": {
-            "color": "#9c7c00"
+            "color": "#735b00"
           },
           "title": {
             "color": "#1e1a14",
             "font_weight": 700
           },
           "type": {
-            "color": "#008cb4"
+            "color": "#006a8a"
           },
           "type.builtin": {
-            "color": "#008cb4"
+            "color": "#006a8a"
           },
           "variable": {
             "color": "#2d2821"
@@ -724,13 +724,13 @@
             "color": "#5a2088"
           },
           "variable.member": {
-            "color": "#645c50"
+            "color": "#756d62"
           },
           "variable.parameter": {
-            "color": "#645c50"
+            "color": "#756d62"
           },
           "variable.special": {
-            "color": "#5f447d"
+            "color": "#715a8b"
           },
           "variant": {
             "color": "#6a1098"

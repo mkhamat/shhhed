@@ -40,7 +40,9 @@ Five brightness tiers, assigned by how much each token matters when scanning cod
 
 Same five tiers, inverted. Cool canvas, gray scaffolding, vivid meaning.
 
-The light variant inverts the lightness ladder: reading tokens are darkest, recede tokens lightest - and pushes maximum chroma into semantic tokens so they cut through the bright background.
+The light variant inverts the lightness ladder: reading tokens are darkest, recede tokens lightest.
+
+Clean tier separation is harder to achieve on a bright background. In the dark theme, making a token brighter and more colorful both push in the same direction for the token to stand out more. In the light theme these two work against each other: semantic tokens need to be dark to rank above structural scaffolding, but darker colors can carry less color saturation in sRGB. So the tiers sit in a tighter band with narrower gaps than the dark variant.
 
 ![shhhed light](light.png)
 
@@ -48,17 +50,17 @@ The light variant inverts the lightness ladder: reading tokens are darkest, rece
 |------|---------|---|----------|------|
 | Canvas | 0.97 | ~0 | Background ![#f1f6fb](https://placehold.co/10x10/f1f6fb/f1f6fb) `#f1f6fb` | Background |
 | Recede | 0.58–0.60 | 0.01–0.02 | Comments ![#877f73](https://placehold.co/10x10/877f73/877f73) `#877f73`, Punctuation ![#7f7970](https://placehold.co/10x10/7f7970/7f7970) `#7f7970` | Present but not competing |
-| Structural | 0.44–0.48 | 0.02–0.10 | Keywords ![#5f447d](https://placehold.co/10x10/5f447d/5f447d) `#5f447d`, Operators ![#625a4e](https://placehold.co/10x10/625a4e/625a4e) `#625a4e`, Properties ![#645c50](https://placehold.co/10x10/645c50/645c50) `#645c50` | Scaffolding |
-| Semantic | 0.49–0.60 | 0.12–0.22 | Types ![#008cb4](https://placehold.co/10x10/008cb4/008cb4) `#008cb4`, Functions ![#0050d8](https://placehold.co/10x10/0050d8/0050d8) `#0050d8`, Strings ![#9c7c00](https://placehold.co/10x10/9c7c00/9c7c00) `#9c7c00`, Numbers ![#c82868](https://placehold.co/10x10/c82868/c82868) `#c82868` | Meaning |
+| Structural | 0.51–0.54 | 0.02–0.08 | Keywords ![#715a8b](https://placehold.co/10x10/715a8b/715a8b) `#715a8b`, Operators ![#726b5f](https://placehold.co/10x10/726b5f/726b5f) `#726b5f`, Properties ![#756d62](https://placehold.co/10x10/756d62/756d62) `#756d62` | Scaffolding |
+| Semantic | 0.46–0.49 | 0.10–0.22 | Types ![#006a8a](https://placehold.co/10x10/006a8a/006a8a) `#006a8a`, Functions ![#0049d4](https://placehold.co/10x10/0049d4/0049d4) `#0049d4`, Strings ![#735b00](https://placehold.co/10x10/735b00/735b00) `#735b00`, Numbers ![#a3004e](https://placehold.co/10x10/a3004e/a3004e) `#a3004e` | Meaning |
 | Reading | 0.28–0.41 | 0.01–0.20 | Variables ![#2d2821](https://placehold.co/10x10/2d2821/2d2821) `#2d2821`, Constructors ![#6a1098](https://placehold.co/10x10/6a1098/6a1098) `#6a1098` | What you're reading |
 
 | Token | Color | Hex | OKLCH |
 |-------|-------|-----|-------|
-| Types | ![#008cb4](https://placehold.co/16x16/008cb4/008cb4) | `#008cb4` | L=0.60 C=0.12 H=227 |
-| Functions | ![#0050d8](https://placehold.co/16x16/0050d8/0050d8) | `#0050d8` | L=0.49 C=0.22 H=262 |
-| Strings | ![#9c7c00](https://placehold.co/16x16/9c7c00/9c7c00) | `#9c7c00` | L=0.60 C=0.12 H=91 |
-| Numbers | ![#c82868](https://placehold.co/16x16/c82868/c82868) | `#c82868` | L=0.55 C=0.20 H=3 |
-| Keywords | ![#5f447d](https://placehold.co/16x16/5f447d/5f447d) | `#5f447d` | L=0.44 C=0.10 H=305 |
+| Types | ![#006a8a](https://placehold.co/16x16/006a8a/006a8a) | `#006a8a` | L=0.49 C=0.10 H=227 |
+| Functions | ![#0049d4](https://placehold.co/16x16/0049d4/0049d4) | `#0049d4` | L=0.47 C=0.22 H=262 |
+| Strings | ![#735b00](https://placehold.co/16x16/735b00/735b00) | `#735b00` | L=0.48 C=0.10 H=91 |
+| Numbers | ![#a3004e](https://placehold.co/16x16/a3004e/a3004e) | `#a3004e` | L=0.46 C=0.19 H=3 |
+| Keywords | ![#715a8b](https://placehold.co/16x16/715a8b/715a8b) | `#715a8b` | L=0.51 C=0.08 H=305 |
 | Background | ![#f1f6fb](https://placehold.co/16x16/f1f6fb/f1f6fb) | `#f1f6fb` | L=0.97 C=0.01 H=248 |
 
 ![shhhed light ui](light2.png)
