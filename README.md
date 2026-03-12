@@ -1,6 +1,6 @@
-![shhhed-hero](hero.png)
+![shhhed dark](dark.png)
 
-> Font: Iosevka SS14 (JetBrains Mono) 548 · Terminal: Iosevka Term SS10 · Tip: `"colorize_brackets": false`
+> Font: Iosevka SS14 (JetBrains Mono) 548 · Terminal: Iosevka Term SS10 · Icons: [FantastIcons](https://zed.dev/extensions/fantasticons-icons-theme) · Tip: `"colorize_brackets": false`
 
 # shhhed
 
@@ -21,13 +21,7 @@ Five brightness tiers, assigned by how much each token matters when scanning cod
 - Near-neutral canvas with blue undertone. Compatible with Night Shift / f.lux.
 - Palette computed in [OKLCH](https://oklch.com). Same-tier accents differ by hue, not brightness.
 - Saturation under 50% HSL (most under 40%) to reduce strain on dark backgrounds.
-- Structural tokens clear 4.5:1 against the canvas (WCAG AA). Recede tokens (comments, punctuation, brackets) sit at 3.5–4.1:1 — legible but not competing for reading attention.
-
-## UI
-
-Covers the full Zed surface: git gutter, diffs, search highlights, debugger, minimap, scrollbar, terminal (16-color ANSI + bright/dim), and status colors.
-
-![shhhed-preview](preview.png)
+- Structural tokens clear 4.5:1 against the canvas (WCAG AA). Recede tokens (comments, punctuation, brackets) sit at 3.5–4.1:1 - legible but not competing for reading attention.
 
 ## Palette
 
@@ -40,11 +34,15 @@ Covers the full Zed surface: git gutter, diffs, search highlights, debugger, min
 | Keywords | ![#918699](https://placehold.co/16x16/918699/918699) | `#918699` |
 | Background | ![#1e1e22](https://placehold.co/16x16/1e1e22/1e1e22) | `#1e1e22` |
 
+![shhhed dark ui](dark2.png)
+
 ## Light
 
 Same five tiers, inverted. Cool canvas, gray scaffolding, vivid meaning.
 
-The light variant inverts the lightness ladder — reading tokens are darkest, recede tokens lightest — and pushes maximum chroma into semantic tokens so they cut through the bright background.
+The light variant inverts the lightness ladder: reading tokens are darkest, recede tokens lightest - and pushes maximum chroma into semantic tokens so they cut through the bright background.
+
+![shhhed light](light.png)
 
 | Tier | OKLCH L | C | Examples | Role |
 |------|---------|---|----------|------|
@@ -62,6 +60,8 @@ The light variant inverts the lightness ladder — reading tokens are darkest, r
 | Numbers | ![#c82868](https://placehold.co/16x16/c82868/c82868) | `#c82868` | L=0.55 C=0.20 H=3 |
 | Keywords | ![#5f447d](https://placehold.co/16x16/5f447d/5f447d) | `#5f447d` | L=0.44 C=0.10 H=305 |
 | Background | ![#f1f6fb](https://placehold.co/16x16/f1f6fb/f1f6fb) | `#f1f6fb` | L=0.97 C=0.01 H=248 |
+
+![shhhed light ui](light2.png)
 
 ## Install
 
