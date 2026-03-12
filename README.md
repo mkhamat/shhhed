@@ -44,16 +44,24 @@ Covers the full Zed surface: git gutter, diffs, search highlights, debugger, min
 
 Same five tiers, inverted. Cool canvas, gray scaffolding, vivid meaning.
 
-The light variant keeps the same accent families and pushes more chroma into semantic tokens so they cut through the bright background without turning scaffolding into the main event.
+The light variant inverts the lightness ladder — reading tokens are darkest, recede tokens lightest — and pushes maximum chroma into semantic tokens so they cut through the bright background.
 
-| Token | Color | Hex |
-|-------|-------|-----|
-| Types | ![#006b89](https://placehold.co/16x16/006b89/006b89) | `#006b89` |
-| Functions | ![#2c3fd0](https://placehold.co/16x16/2c3fd0/2c3fd0) | `#2c3fd0` |
-| Strings | ![#9c7c00](https://placehold.co/16x16/9c7c00/9c7c00) | `#9c7c00` |
-| Numbers | ![#a9134e](https://placehold.co/16x16/a9134e/a9134e) | `#a9134e` |
-| Keywords | ![#5f447d](https://placehold.co/16x16/5f447d/5f447d) | `#5f447d` |
-| Background | ![#f7fbff](https://placehold.co/16x16/f7fbff/f7fbff) | `#f7fbff` |
+| Tier | OKLCH L | C | Examples | Role |
+|------|---------|---|----------|------|
+| Canvas | 0.97 | ~0 | Background ![#f1f6fb](https://placehold.co/10x10/f1f6fb/f1f6fb) `#f1f6fb` | Background |
+| Recede | 0.58–0.60 | 0.01–0.02 | Comments ![#877f73](https://placehold.co/10x10/877f73/877f73) `#877f73`, Punctuation ![#7f7970](https://placehold.co/10x10/7f7970/7f7970) `#7f7970` | Present but not competing |
+| Structural | 0.44–0.48 | 0.02–0.10 | Keywords ![#5f447d](https://placehold.co/10x10/5f447d/5f447d) `#5f447d`, Operators ![#625a4e](https://placehold.co/10x10/625a4e/625a4e) `#625a4e`, Properties ![#645c50](https://placehold.co/10x10/645c50/645c50) `#645c50` | Scaffolding |
+| Semantic | 0.49–0.60 | 0.12–0.22 | Types ![#008cb4](https://placehold.co/10x10/008cb4/008cb4) `#008cb4`, Functions ![#0050d8](https://placehold.co/10x10/0050d8/0050d8) `#0050d8`, Strings ![#9c7c00](https://placehold.co/10x10/9c7c00/9c7c00) `#9c7c00`, Numbers ![#c82868](https://placehold.co/10x10/c82868/c82868) `#c82868` | Meaning |
+| Reading | 0.28–0.41 | 0.01–0.20 | Variables ![#2d2821](https://placehold.co/10x10/2d2821/2d2821) `#2d2821`, Constructors ![#6a1098](https://placehold.co/10x10/6a1098/6a1098) `#6a1098` | What you're reading |
+
+| Token | Color | Hex | OKLCH |
+|-------|-------|-----|-------|
+| Types | ![#008cb4](https://placehold.co/16x16/008cb4/008cb4) | `#008cb4` | L=0.60 C=0.12 H=227 |
+| Functions | ![#0050d8](https://placehold.co/16x16/0050d8/0050d8) | `#0050d8` | L=0.49 C=0.22 H=262 |
+| Strings | ![#9c7c00](https://placehold.co/16x16/9c7c00/9c7c00) | `#9c7c00` | L=0.60 C=0.12 H=91 |
+| Numbers | ![#c82868](https://placehold.co/16x16/c82868/c82868) | `#c82868` | L=0.55 C=0.20 H=3 |
+| Keywords | ![#5f447d](https://placehold.co/16x16/5f447d/5f447d) | `#5f447d` | L=0.44 C=0.10 H=305 |
+| Background | ![#f1f6fb](https://placehold.co/16x16/f1f6fb/f1f6fb) | `#f1f6fb` | L=0.97 C=0.01 H=248 |
 
 ## Install
 
