@@ -42,7 +42,7 @@ Covers the full Zed surface: git gutter, diffs, search highlights, debugger, min
 
 ## Light
 
-Same five tiers, inverted. Warm canvas, gray scaffolding, vivid meaning.
+Same five tiers, inverted. Cool canvas, gray scaffolding, vivid meaning.
 
 The light variant keeps the same accent families and pushes more chroma into semantic tokens so they cut through the bright background without turning scaffolding into the main event.
 
@@ -50,10 +50,10 @@ The light variant keeps the same accent families and pushes more chroma into sem
 |-------|-------|-----|
 | Types | ![#006b89](https://placehold.co/16x16/006b89/006b89) | `#006b89` |
 | Functions | ![#2c3fd0](https://placehold.co/16x16/2c3fd0/2c3fd0) | `#2c3fd0` |
-| Strings | ![#b24a00](https://placehold.co/16x16/b24a00/b24a00) | `#b24a00` |
+| Strings | ![#9c7c00](https://placehold.co/16x16/9c7c00/9c7c00) | `#9c7c00` |
 | Numbers | ![#a9134e](https://placehold.co/16x16/a9134e/a9134e) | `#a9134e` |
 | Keywords | ![#5f447d](https://placehold.co/16x16/5f447d/5f447d) | `#5f447d` |
-| Background | ![#fef9f5](https://placehold.co/16x16/fef9f5/fef9f5) | `#fef9f5` |
+| Background | ![#f7fbff](https://placehold.co/16x16/f7fbff/f7fbff) | `#f7fbff` |
 
 ## Install
 
