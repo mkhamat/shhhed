@@ -1,6 +1,6 @@
 id = "shhhed-theme"
 name = "shhhed"
-version = "1.50.0"
+version = "1.51.0"
 schema_version = 1
 authors = ["mkhamat"]
 description = "🤫 Theme that dims the scaffolding and colors what matters. Dark and light."

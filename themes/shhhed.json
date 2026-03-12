@@ -292,10 +292,10 @@
             "color": "#918699"
           },
           "string": {
-            "color": "#bd9049"
+            "color": "#c48d2f"
           },
           "string.doc": {
-            "color": "#bd9049",
+            "color": "#c48d2f",
             "font_style": "italic"
           },
           "string.interpolation": {
@@ -317,7 +317,7 @@
             "color": "#958898"
           },
           "text.literal": {
-            "color": "#bd9049"
+            "color": "#c48d2f"
           },
           "title": {
             "color": "#c8c8cc",
@@ -333,7 +333,7 @@
             "color": "#b8b8bc"
           },
           "variable.builtin": {
-            "color": "#9a94a4"
+            "color": "#958f9f"
           },
           "variable.member": {
             "color": "#909094"
@@ -583,7 +583,7 @@
             "color": "#756d62"
           },
           "boolean": {
-            "color": "#a3004e",
+            "color": "#c82868",
             "font_style": "italic"
           },
           "comment": {
@@ -595,13 +595,13 @@
             "font_style": "italic"
           },
           "constant": {
-            "color": "#a20029"
+            "color": "#c42840"
           },
           "constructor": {
             "color": "#6a1098"
           },
           "embedded": {
-            "color": "#006a8a"
+            "color": "#008cb4"
           },
           "emphasis": {
             "color": "#1e1a14",
@@ -612,22 +612,22 @@
             "font_weight": 700
           },
           "enum": {
-            "color": "#006a8a"
+            "color": "#008cb4"
           },
           "function": {
-            "color": "#0049d4"
+            "color": "#0050d8"
           },
           "function.builtin": {
-            "color": "#0049d4"
+            "color": "#0050d8"
           },
           "function.definition": {
-            "color": "#0049d4"
+            "color": "#0050d8"
           },
           "function.method": {
-            "color": "#0049d4"
+            "color": "#0050d8"
           },
           "function.special.definition": {
-            "color": "#0049d4"
+            "color": "#0050d8"
           },
           "hint": {
             "color": "#236292",
@@ -646,7 +646,7 @@
             "color": "#2a7848"
           },
           "number": {
-            "color": "#a3004e"
+            "color": "#c82868"
           },
           "operator": {
             "color": "#726b5f"
@@ -668,7 +668,7 @@
             "color": "#7f7970"
           },
           "punctuation.bracket": {
-            "color": "#7a7469"
+            "color": "#827b70"
           },
           "punctuation.delimiter": {
             "color": "#7f7970"
@@ -680,48 +680,48 @@
             "color": "#715a8b"
           },
           "string": {
-            "color": "#735b00"
+            "color": "#9c7c00"
           },
           "string.doc": {
-            "color": "#735b00",
+            "color": "#9c7c00",
             "font_style": "italic"
           },
           "string.interpolation": {
-            "color": "#6c5500"
+            "color": "#927500"
           },
           "string.escape": {
-            "color": "#655000"
+            "color": "#8a6d00"
           },
           "string.regex": {
-            "color": "#655000"
+            "color": "#8a6d00"
           },
           "string.special": {
-            "color": "#655000"
+            "color": "#8a6d00"
           },
           "string.special.symbol": {
-            "color": "#655000"
+            "color": "#8a6d00"
           },
           "tag": {
             "color": "#715a8b"
           },
           "text.literal": {
-            "color": "#735b00"
+            "color": "#9c7c00"
           },
           "title": {
             "color": "#1e1a14",
             "font_weight": 700
           },
           "type": {
-            "color": "#006a8a"
+            "color": "#008cb4"
           },
           "type.builtin": {
-            "color": "#006a8a"
+            "color": "#008cb4"
           },
           "variable": {
             "color": "#2d2821"
           },
           "variable.builtin": {
-            "color": "#5a2088"
+            "color": "#725f8a"
           },
           "variable.member": {
             "color": "#756d62"
