@@ -192,7 +192,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#7f8e7f"
+            "color": "#909094"
           },
           "boolean": {
             "color": "#ca8489",
@@ -261,15 +261,14 @@
             "color": "#ca8489"
           },
           "operator": {
-            "color": "#878787"
+            "color": "#929296"
           },
           "predictive": {
             "color": "#46464c",
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#7f8e7f",
-            "font_style": "italic"
+            "color": "#7f8e7f"
           },
           "primary": {
             "color": "#cbcbcf"
@@ -334,8 +333,7 @@
             "color": "#b8b8bc"
           },
           "variable.builtin": {
-            "color": "#9a94a4",
-            "font_style": "italic"
+            "color": "#9a94a4"
           },
           "variable.member": {
             "color": "#909094"
@@ -582,7 +580,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#416146"
+            "color": "#645c50"
           },
           "boolean": {
             "color": "#a9134e",
@@ -651,15 +649,14 @@
             "color": "#a9134e"
           },
           "operator": {
-            "color": "#6e685f"
+            "color": "#625a4e"
           },
           "predictive": {
             "color": "#b8b8be",
             "font_style": "italic"
           },
           "preproc": {
-            "color": "#416146",
-            "font_style": "italic"
+            "color": "#416146"
           },
           "primary": {
             "color": "#1e1a14"
@@ -724,8 +721,7 @@
             "color": "#2d2821"
           },
           "variable.builtin": {
-            "color": "#422c58",
-            "font_style": "italic"
+            "color": "#422c58"
           },
           "variable.member": {
             "color": "#645c50"
