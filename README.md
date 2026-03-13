@@ -50,20 +50,20 @@ On a light background, darker and more colorful pull apart: a token can be dark 
 |------|---------|---|----------|------|
 | Canvas | 0.97 | ~0 | Background ![#f1f6fb](https://placehold.co/10x10/f1f6fb/f1f6fb) `#f1f6fb` | Background |
 | Recede | 0.58–0.60 | 0.01–0.02 | Comments ![#877f73](https://placehold.co/10x10/877f73/877f73) `#877f73`, Punctuation ![#7f7970](https://placehold.co/10x10/7f7970/7f7970) `#7f7970` | Present but not competing |
-| Structural | 0.51–0.54 | 0.02–0.08 | Keywords ![#715a8b](https://placehold.co/10x10/715a8b/715a8b) `#715a8b`, Operators ![#726b5f](https://placehold.co/10x10/726b5f/726b5f) `#726b5f`, Properties ![#756d62](https://placehold.co/10x10/756d62/756d62) `#756d62` | Scaffolding |
-| Semantic | 0.49–0.60 | 0.12–0.22 | Types ![#008cb4](https://placehold.co/10x10/008cb4/008cb4) `#008cb4`, Functions ![#0050d8](https://placehold.co/10x10/0050d8/0050d8) `#0050d8`, Strings ![#9c7c00](https://placehold.co/10x10/9c7c00/9c7c00) `#9c7c00`, Numbers ![#c82868](https://placehold.co/10x10/c82868/c82868) `#c82868` | Meaning |
+| Structural | 0.53–0.55 | 0.02–0.04 | Keywords ![#776b81](https://placehold.co/10x10/776b81/776b81) `#776b81`, Operators ![#726b5f](https://placehold.co/10x10/726b5f/726b5f) `#726b5f`, Properties ![#756d62](https://placehold.co/10x10/756d62/756d62) `#756d62` | Scaffolding |
+| Semantic | 0.49–0.55 | 0.10–0.22 | Types ![#007894](https://placehold.co/10x10/007894/007894) `#007894`, Functions ![#0050d8](https://placehold.co/10x10/0050d8/0050d8) `#0050d8`, Strings ![#8a6d00](https://placehold.co/10x10/8a6d00/8a6d00) `#8a6d00`, Numbers ![#c82868](https://placehold.co/10x10/c82868/c82868) `#c82868` | Meaning |
 | Reading | 0.28–0.41 | 0.01–0.20 | Variables ![#2d2821](https://placehold.co/10x10/2d2821/2d2821) `#2d2821`, Constructors ![#6a1098](https://placehold.co/10x10/6a1098/6a1098) `#6a1098` | What you're reading |
 
 - Cool-white canvas (L=0.97) with blue undertone, matching the dark variant.
-- Chroma carries the tier signal — semantic tokens pop through color intensity (C=0.12–0.22) against near-neutral structural tokens (C≈0.02).
+- Chroma carries the tier signal — semantic tokens pop through color intensity (C=0.10–0.22) against near-neutral structural tokens (C≈0.02–0.04).
 
 | Token | Color | Hex | OKLCH |
 |-------|-------|-----|-------|
-| Types | ![#008cb4](https://placehold.co/16x16/008cb4/008cb4) | `#008cb4` | L=0.60 C=0.12 H=227 |
+| Types | ![#007894](https://placehold.co/16x16/007894/007894) | `#007894` | L=0.53 C=0.10 H=222 |
 | Functions | ![#0050d8](https://placehold.co/16x16/0050d8/0050d8) | `#0050d8` | L=0.49 C=0.22 H=262 |
-| Strings | ![#9c7c00](https://placehold.co/16x16/9c7c00/9c7c00) | `#9c7c00` | L=0.60 C=0.12 H=91 |
+| Strings | ![#8a6d00](https://placehold.co/16x16/8a6d00/8a6d00) | `#8a6d00` | L=0.55 C=0.11 H=90 |
 | Numbers | ![#c82868](https://placehold.co/16x16/c82868/c82868) | `#c82868` | L=0.56 C=0.20 H=3 |
-| Keywords | ![#715a8b](https://placehold.co/16x16/715a8b/715a8b) | `#715a8b` | L=0.51 C=0.08 H=305 |
+| Keywords | ![#776b81](https://placehold.co/16x16/776b81/776b81) | `#776b81` | L=0.55 C=0.04 H=310 |
 | Background | ![#f1f6fb](https://placehold.co/16x16/f1f6fb/f1f6fb) | `#f1f6fb` | L=0.97 C=0.01 H=248 |
 
 ![shhhed light ui](light2.png)
